@@ -1,0 +1,25 @@
+{
+  "MIN_PROFIT_PERCENT": 0.001,
+  "MIN_PROFIT_USD": 0.0001,
+  "MAX_PROFIT_PERCENT": 5000,
+  "TRADING_FEE": 0.001,
+  "BASE_CURRENCIES": [
+    "USDT",
+    "BTC",
+    "ETH"
+  ],
+  "SCAN_INTERVAL": 5,
+  "MAX_OPPORTUNITIES_DISPLAY": 100,
+  "ALERTS": {
+    "enabled": true,
+    "min_profit_to_alert": 0.0001,
+    "min_confidence_to_alert": 0,
+    "cooldown_seconds": 2,
+    "max_alerts_per_scan": 30,
+    "alert_on_every_scan": true
+  },
+  "TELEGRAM": {
+    "enabled": true,
+    "bot_token": "6667612277:AAFcTaNO4sjp_1LSgcUMy4UncCS9oMNOncU"
+  }
+}
